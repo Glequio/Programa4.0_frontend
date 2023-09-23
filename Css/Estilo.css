@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@300&family=Ubuntu&display=swap');
+/*
+FUENTES AGREGADAS
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+*{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    background-color: #345151;
+    margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+.borde{
+    border: 1px;
+    border-style: solid;
+    border-color: yellowgreen;
+    height: 2px;
+    width: auto;
+}
+
+.containerHorizontal{
+    background-color: #345151;
+    font-size: 2rem;
+    color: white;
+    justify-content: left;
+    padding-left: 0rem;
+    padding-top: 1,5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 20vw;
+    top: 0;
+    height: 25vh;
+    width: 80vw;
+
+}
+#nombre{
+    font-size: 2,8rem;
+    text-align: left;
+    padding-left: 40px;
+    width: 70vw;    
+}
+#contacto{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.itemIcono{
+    width: 2vw;
+    margin: 1vw;
+    justify-content: center;
+    
+}
+.fuenteIcono{
+    padding-top: 0;
+    font-size: small;
+    text-align: center;
+    text-align: start;
+    width: 18vw;
+    margin: 1vw;
+}
+.idioma{
+    font-size: 15px;
+    text-align: center;
+    padding: 0;
+    
+}
+.idioma p {
+    font-size: 13px;
+    margin: 10px 0px 10px 40px;
+    text-align: left;
+}
+
+.containerVertical {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    width: 20vw;
+    background-color: #345151;
+
+}
+.itemvertical1{
+    height: 20vw;
+    background-image: linear-gradient(#092828,#345151);
+    background-color: ;
+    
+}
+.div-redondo {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 14vw;
+    height: 14vw;
+    position: absolute;
+    top: 3vw;
+    left: 2.5vw;
+    clip-path: circle(50%);
+}
+
+.itemvertical{
+    background-color:#345151 ;
+    color: white;
+}
+.botones{
+    border: 2px solid rgb(14, 106, 227);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 1rem;
+    margin: 20px 20px 20px 50px;
+}
+button:hover {
+    background-color: #092828;
+    color: #ffffff;
+  }
+.divDetalle {
+    width: 80vw;
+    justify-content: center;
+    text-align: left;
+    margin-left: 5%;
+    padding: 2rem;
+    font-size: medium;
+}
+#pdf {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    font-size: medium;
+    width: 80vw;
+    
+}  
